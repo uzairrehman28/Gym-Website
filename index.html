@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("girlgym.jpg");
+            background-repeat: no-repeat;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 18px;
+        }
+
+        .mid {
+            display: block;
+            width: 39%;
+            margin: 10px 373px;
+            /* border: 2px solid greenyellow; */
+            background-color: rgb(101, 108, 110);
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 22px;
+            display: inline-block;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            font-size: 2.8vh;
+            display: inline-block;
+            font-weight: 120px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 0px 10px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(14, 221, 76);
+        }
+
+        .left img {
+            width: 85px;
+            filter: invert(100%);
+            margin-left: 11px;
+
+        }
+
+        .left div {
+            text-align: center;
+            line-break: 2px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            padding: 4px;
+            color: white;
+            background-color: rgb(133, 139, 141);
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: rgb(14, 221, 76);
+            text-decoration: underline;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 97px 54px;
+            padding: 75px;
+            width: 22%;
+            border-radius: 11px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            margin: 11px auto;
+            width: 95%;
+            font-size: 17px;
+            border-radius: 6px;
+            padding: 1px;
+        }
+
+        .container h3 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            margin: 11px auto;
+            width: 97%;
+            font-size: 17px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/dubell1.png" alt="">
+            <div>Uzair's Fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join The Best Gym of LYARI Now </h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <footer class="foot">
+            <div class="foot-items">
+                <ul>
+                    li
+                </ul>
+            </div>
+    </footer>
+</body>
+
+</html>
